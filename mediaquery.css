@@ -1,0 +1,418 @@
+@media screen and (max-width: 700px) {
+    .navbar .menuicon {
+        display: block;
+    }
+
+    #click:checked~.menuicon ::before {
+        content: "\f00d";
+    }
+    /* #click:checked~.menu ::before {
+        content: "\f00d";
+    } */
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #772a31;
+        height: 33vh;
+        width: 145px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.3s ease;
+        padding-top: 13px;
+        overflow: hidden;
+    }
+
+    #click:checked~nav ul {
+        left: 0%;
+    }
+
+    nav ul li {
+        margin: 0px 0px;
+    }
+
+    nav ul li a {
+        margin-bottom:15px;
+        font-size: 15px;
+        display: block;
+        color:#eee5db;
+    }
+    .one {
+        color:#eee5db;;
+    }
+    .one:hover{
+        color:#ae4951;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+        color:#ae4951;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .off {
+        flex-direction: row;
+    }
+
+    .off2 {
+        width: 70vh;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .right p {
+        font-size: 18px;
+    }
+
+    .right h1 {
+        font-size: 60px;
+    }
+
+    .right h2 {
+        font-size: 50px;
+    }
+
+    .row1,
+    .row2 {
+        padding-bottom: 7px;
+    }
+
+    .row1 img,
+    .row2 img {
+        padding: 0px 5px;
+        width: 280px;
+        height: 330px;
+    }
+
+    .p1 img,
+    .p2 img,
+    .p3 img {
+        padding: 0px 5px;
+        width: 280px;
+        height: 330px;
+    }
+
+    .off1 img {
+        width: 330px;
+        height: 430px;
+    }
+
+    .off2 h1 {
+        font-size: 40px;
+    }
+
+    .company img {
+        width: 102px;
+        height: 107px;
+    }
+
+    .footer1 {
+        margin-inline: 15px;
+    }
+
+    .col1 {
+        flex-basis: 27%;
+    }
+
+    .col2 {
+        flex-basis: 28%;
+    }
+
+    .col3 {
+        flex-basis: 22%;
+    }
+
+
+    /*--------------------product.html---------------*/
+    .pro {
+        margin-inline:-130px;
+    }
+
+    .page-btn {
+        padding-inline: 70px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .row {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    .row1,
+    .row2 {
+        padding-bottom: 5px;
+    }
+
+    .row1 img,
+    .row2 img {
+        padding: 0px 5px;
+        width: 230px;
+        height: 295px;
+    }
+
+    .p {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        padding-bottom: 35px;
+    }
+
+    .p1 img,
+    .p2 img,
+    .p3 img {
+        padding: 0px 5px;
+        width: 230px;
+        height: 295px;
+    }
+
+    .l {
+        font-size: 35px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .l1 img {
+        padding: 0px 5px;
+        width: 181px;
+        height: 222px;
+    }
+
+    .off {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .off1 img {
+        width: 330px;
+        height: 420px;
+    }
+
+    .off2 {
+        width: 65vh;
+    }
+
+    .company {
+        padding-bottom: 35px;
+    }
+
+    .company img {
+        width: 75px;
+        height: 90px;
+    }
+
+    .col1 {
+        flex-basis: 100%;
+    }
+
+    .col2 {
+        flex-basis: 41%;
+    }
+
+    /*--------------------product.html---------------*/
+    .pro {
+        margin-inline: -45px;
+    }
+
+    .page-btn {
+        padding-inline: 107px;
+    }
+
+
+    /*------------------product.html-------------------*/
+    .single{
+        flex-direction: column;
+    }
+    .merge{
+        width:69vh;
+    }
+    .col h1{
+        font-size:32px;
+    }
+    .p1 img,
+    .p2 img,
+    .p3 img {
+        padding: 0px 5px;
+        width: 174px;
+        height: 230px;
+    }
+    .single1{
+        padding-inline:24px;
+        padding-top:170px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .cart {
+        padding-left: 17px;
+    }
+
+    .header .front {
+        margin-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .right p {
+        font-size: 17px;
+    }
+
+    .right h1 {
+        font-size: 50px;
+    }
+
+    .right h2 {
+        font-size: 40px;
+    }
+
+    .btn {
+        padding: 6px;
+    }
+
+    .right2 {
+        margin-top: -50px;
+    }
+
+    .right2 img {
+        height: 585px;
+        width: 350px;
+    }
+
+    .row {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    .p {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    .l {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    .l1 img {
+        padding: 0px 10px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .l1 p {
+        padding-bottom: 35px;
+    }
+
+    .off {
+        padding-top: 70px
+    }
+
+    .off1 img {
+        width: 300px;
+        height: 380px;
+    }
+
+    .off2 {
+        width: 50vh;
+    }
+
+    .off h1 {
+        font-size: 26px;
+    }
+
+    .off h3 {
+        font-size: 24px;
+    }
+
+    .off p {
+        font-size: 15px;
+    }
+
+    .company {
+        flex-direction: column;
+        margin-top: -33px;
+        margin-bottom: -60px;
+    }
+
+    .company img {
+        width: 105px;
+        height: 90px;
+        padding-inline: 5px;
+        cursor: pointer;
+        margin-bottom: 25px;
+    }
+
+    .col1 {
+        flex-basis: 100%;
+    }
+
+    .col2 {
+        flex-basis: 100%;
+    }
+
+    .col3 {
+        flex-basis: 100%;
+    }
+
+    .col4 {
+        flex-basis: 100%;
+    }
+
+
+        /*--------------------product.html---------------*/
+        .pro h2{
+            font-size: 18px;
+        }
+         select{
+            padding:2px 1px;
+            font-size:10px;
+        }
+        .page-btn{
+            padding-inline:55px;
+        } 
+
+        /*------------------product.html-------------------*/
+        .col img{
+            width:290px;
+            height:390px;
+        }
+        .small_col img{
+            width:67px;
+            height:101px;
+        }
+        .col h1{
+            font-size:25px;
+        }
+        .col h4{
+            font-size:19px;
+        }
+        .col p{
+            font-size: 15px;
+        }
+        .merge{
+            width:48vh;
+        }
+        .p11{
+            flex-direction: column;
+        }
+        .single1{
+            padding-inline:10px;
+        }
+        .single1 h2{
+            font-size: 19px;
+        }
+        .p1 img,
+        .p2 img,
+        .p3 img {
+            padding: 0px 5px;
+            width: 215px;
+            height: 270px;
+        }
+}
